@@ -12,11 +12,12 @@ export default {
   data () {
     return {
       active: false,
+      label: "teste",
       classButtom: `react-list-drop__button ${(this.active ? 'active' : '')}`
     }
   },
   props: {
-    label
+    //label
   },
   methods: {
     toggleComponent (active) {
