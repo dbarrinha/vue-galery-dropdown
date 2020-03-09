@@ -1,11 +1,11 @@
-.react-list-drop__container {
+.vue-galery-drop__container {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 15px;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.react-list-drop__button {
+.vue-galery-drop__button {
   padding: 5px 35px 5px 16px;
   display: inline-block;
   position: relative;
@@ -46,7 +46,7 @@
     }
   }
 }
-.react-list-drop__dropdown {
+.vue-galery-drop__dropdown {
   padding: 7px;
   width: 140px;
   height: 45px;
@@ -102,19 +102,19 @@
     background: #949494;
   }
 }
-.react-list-drop__item-container {
+.vue-galery-drop__item-container {
   margin: 6px;
   display: inline-block;
   border-radius: 4px;
 }
-.react-list-drop__item {
+.vue-galery-drop__item {
   margin: 6px;
   width: 180px;
   height: 100px;
   border-radius: 10px;
   cursor: pointer;
   background-size: cover;
-  transition: 1000ms ease-in;
+  transition: 500ms ease-in;
   opacity: 0;
 
   &.show {
@@ -126,7 +126,7 @@
     transform: scale(1.1);
   }
 }
-.react-list-drop__label {
+.vue-galery-drop__label {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -141,7 +141,7 @@
   text-transform: uppercase;
   font-size: 18px;
   text-shadow: 1px 1px 7px black;
-  transition: 1000ms ease-in;
+  transition: 500ms ease-in;
   opacity: 0;
 
   &.show {
@@ -157,7 +157,7 @@
     cursor: auto;
   }
 }
-.react-list-drop__section-label {
+.vue-galery-drop__section-label {
   margin-left: 5px;
   padding: 5px 10px 5px 10px;
   background: #fff;
