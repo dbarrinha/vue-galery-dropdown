@@ -1,5 +1,10 @@
 <template>
-  <div :class="classItem">
+  <div 
+  :class="classItem" 
+  :style="{
+      backgroundImage: `url('${item.backgroundImage}')`,
+      backgroundColor: `${(item.backgroundColor && item.backgroundColor)}`,
+    }">
     <span :class="classLabel" v-on:click="handleClick(item)">{{item.label}}</span>
   </div>
 </template>
@@ -12,11 +17,7 @@ export default {
       if (typeof item.onClick === "function") {
         item.onClick();
       }
-    }
-
-
-
-    
+    } 
   },
   props: {
     item: {
@@ -32,8 +33,3 @@ export default {
   },
 };
 </script>
-<style>
-.background {
-  background-color: #cccccc;
-}
-</style>

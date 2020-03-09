@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Content from './content'
+import Content from './components/content'
 
 export default {
-  name: 'ListDrop',
+  name: 'GaleryDropDown',
   data () {
     return {
       active: false,
