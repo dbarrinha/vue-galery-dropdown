@@ -13,6 +13,10 @@ export default {
         item.onClick();
       }
     }
+
+
+
+    
   },
   props: {
     item: {
@@ -25,6 +29,11 @@ export default {
     classItem: {
       type: String
     }
-  }
+  },
 };
 </script>
+<style>
+.background {
+  background-color: #cccccc;
+}
+</style>
