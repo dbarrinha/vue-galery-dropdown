@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import GaleryDropDown from './index.vue'
-import './assets/style.scss'
+import GaleryDropDown from './App.vue'
+
 
 Vue.config.productionTip = false
 

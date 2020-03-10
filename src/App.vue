@@ -9,6 +9,7 @@
 
 <script>
 import Content from './components/content'
+import './assets/style.scss'
 
 export default {
   name: 'GaleryDropDown',
