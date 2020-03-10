@@ -1,24 +1,48 @@
-# vue-galery-dropdown
+# Galery DropDown
 
-## Project setup
-```
-npm install
-```
+### Instalação
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+
+```sh
+$ npm install --save vue-galery-dropdown
 ```
 
-### Compiles and minifies for production
+### Exemplo
+```sh
+import GaleryDropDown from 'vue-galery-dropdown'
 ```
-npm run build
+```sh
+<GaleryDropDown 
+    label="Open Galery" 
+    v-bind:items="items" 
+    direction="left"
+/>
 ```
+## Parâmetros
+| Nome        |  Tipo               |   Opções          |
+| ----------- | ------------------- |------------------ |
+|  label      |  String             | 
+|  items      |  Array              | Array de itens
+|  direction  |  String             | ['left','right']
 
-### Lints and fixes files
-```
-npm run lint
-```
+#### Item
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Nome              |  Tipo               | 
+| ----------------- | ------------------- |
+|  label            |  String               
+|  backgroundImage  |  String url   
+|  backgroundColor  |  String       
+|  onClick          |  Function             
+
+### Todos
+
+ - Escrever Tests
+
+License
+----
+
+MIT
+
+
+**Free Module, Hell Yeah!**
+
