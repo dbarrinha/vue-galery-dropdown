@@ -1,4 +1,4 @@
-# Galery DropDown
+# Gallery DropDown
 
 ### Instalação
 
