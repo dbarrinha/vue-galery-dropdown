@@ -6,6 +6,7 @@
 ```sh
 $ npm install --save vue-galery-dropdown
 ```
+![](exemple.gif)
 
 ### Exemplo
 ```sh
